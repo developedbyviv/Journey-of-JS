@@ -4,7 +4,8 @@ let findMultiple = (num) => {
   if (num > 0) {
     if (num % 3 === 0 || num % 7 === 0) return true;
     else return false;
-  }
+  }else
+    console.log("Please enter a Integer!");
 };
 
-console.log(findMultiple(5));
+console.log(findMultiple(-1));
