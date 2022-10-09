@@ -4,7 +4,7 @@
 let swapChars = (str) => {
   if (str.length >= 3) {
     backChars = str.substring(str.length - 3); // stores last three characters
-    return backChars + str + backChars;
+    return backChars + str + backChars; // return the new string
   } else {
     return false;
   }
